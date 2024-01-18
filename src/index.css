@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color:#84CEEB ;
+}
+
+
+
+.main img{
+    height: 300px;
+}
+
+.all_items:hover{
+    background-color: gray;
+    transform: scale(1.1); 
+    transition: transform 1.5s ease;}
