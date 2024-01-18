@@ -58,6 +58,7 @@ function Register() {
     ;
     setData(data)
     console.log(data)
+    alert("Registration Successful")
 
   };
 
@@ -109,7 +110,7 @@ function Register() {
             <InputLabel>Repeat Password</InputLabel>
             <Input type="password" onChange={handleRepeatPasswordChange} />
             <FormHelperText error={!isValidRepeatPassword}>
-              Password must contain at least one character and one number.
+              Password does not match.
             </FormHelperText>
           </FormControl>
           
